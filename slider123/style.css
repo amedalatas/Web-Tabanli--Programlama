@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    border: 0;
+}
+.slider{
+    overflow: hidden;
+    margin: 20px;
+    position: relative;
+}
+
+.slider ul.slider_liste li {
+    font-size: 0;
+    width: 100%;
+    float:left;
+    
+}
+
+.slider ul.slider_liste li a img{
+     width: 100%;
+        
+}
+
+ a.onceki , a.sonraki{
+    width: 70px;
+    height: 70px;
+    text-decoration: none;
+    border-radius: 100px;
+    color: #fff;
+    position: absolute;
+    font: 32px/70px Arial;
+    top:50%;
+    margin-top:-35px;
+    background-color: black;
+    text-align: center;
+}
+
+a.onceki{
+    left: 20px;
+}
+
+a.sonraki{
+    right :20px;
+}
+
+a.onceki:hover,a.sonraki:hover{
+
+    background-color:darkolivegreen;
+}
